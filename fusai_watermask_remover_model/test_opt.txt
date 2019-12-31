@@ -1,0 +1,41 @@
+----------------- Options ---------------
+             add_contrast: False                         
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./pytorch-CycleGAN-and-pix2pix/models_data	[default: ./models_data]
+                crop_size: 256                           
+                 dataroot: ./data_temp/test_txts_19_11_21_10_47_37/fuusai_data_for_watermark_remove	[default: None]
+             dataset_mode: aligned                       
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 1                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: pix2pix                       	[default: test]
+               n_layers_D: 3                             
+                     name: fusai_watermask_remover_model 	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: unet_256                      
+                      ngf: 64                            
+               no_dropout: False                         
+                  no_flip: False                         
+                     norm: batch                         
+                    ntest: inf                           
+                 num_test: 62                            	[default: 50]
+              num_threads: 4                             
+                output_nc: 1                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: ./data_temp/test_txts_19_11_21_10_47_37/gan_result_fu_dir	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                  verbose: False                         
+----------------- End -------------------
